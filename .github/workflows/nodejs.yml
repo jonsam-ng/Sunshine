@@ -45,10 +45,10 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Build docs
-        run: hexo g
+        run: npm run build
 
       - name: Publish docs
-        run: hexo d
+        run: npm run deploy
         # uses: peaceiris/actions-gh-pages@v3
         #with:
         #  github_token: ${{ secrets.GITHUB_TOKEN }}
