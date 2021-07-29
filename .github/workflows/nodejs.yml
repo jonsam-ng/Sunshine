@@ -45,7 +45,6 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Build docs
-        run: hexo clean
         run: hexo g
 
       - name: Publish docs
