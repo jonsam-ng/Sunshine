@@ -45,14 +45,11 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Build docs
-        run: |
-        npm run build
+        run: npm run build
 
       - name: Publish docs
-        uses: JamesIves/github-pages-deploy-action@3.1.5
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./.deploy_git
-          BRANCH: gh-pages
-          FOLDER: public
           
