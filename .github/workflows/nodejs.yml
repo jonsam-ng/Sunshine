@@ -48,7 +48,6 @@ jobs:
         run: npm run build
 
       - name: Publish docs
-        run: npm run deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
