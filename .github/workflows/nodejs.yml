@@ -47,7 +47,7 @@ jobs:
       - name: Build docs
         run: |
         npm run build
-        ls
+        npx hexo deploy
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
