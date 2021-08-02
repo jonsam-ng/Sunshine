@@ -32,7 +32,15 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install Packages
-        run: npm install
+        run: |
+            npm install hexo-cli -g
+            npm i -S hexo-prism-plugin -g
+            npm install hexo-generator-search --save -g
+            npm i hexo-permalink-pinyin  -g
+            npm i --save hexo-wordcount -g
+            npm install hexo-filter-github-emojis  -g
+            npm install hexo-generator-feed  -g
+            npm install
 
       - name: Cache node modules
         uses: actions/cache@v1
@@ -45,7 +53,9 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Build docs
-        run: npm run build
+        run: |
+            hexo clean
+            hexo g
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
