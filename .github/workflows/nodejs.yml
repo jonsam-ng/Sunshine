@@ -41,4 +41,5 @@ jobs:
         run: |
             git config --global user.email "2824804209@qq.com"
             git config --global user.name "jonsam"
+            git switch gh-pages
             npm run deploy
