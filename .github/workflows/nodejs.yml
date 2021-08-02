@@ -54,8 +54,8 @@ jobs:
 
       - name: Build docs
         run: |
-            hexo clean
-            hexo g
+            npx hexo clean
+            npx hexo g
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
