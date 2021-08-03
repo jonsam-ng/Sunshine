@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.7.0]
+        node-version: [12.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -31,15 +31,25 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Packages
+      - name: Install Packagesxc
         run: npm install
 
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-build-${{ env.cache-name }}-
+            ${{ runner.OS }}-build-
+            ${{ runner.OS }}-
+
       - name: Build docs
-        run:  npm run build
+        run: npm run build
 
       - name: Publish docs
-        run: |
-            git config --global user.email "2824804209@qq.com"
-            git config --global user.name "jonsam"
-            git switch gh-pages
-            npm run deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          
