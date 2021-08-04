@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Packagesxc
+      - name: Install Packages
         run: npm install
 
       - name: Cache node modules
@@ -52,4 +52,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          
