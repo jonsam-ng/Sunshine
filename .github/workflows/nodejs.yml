@@ -45,7 +45,7 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Build docs
-        run: npx hexo g
+        run: npm run build
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
