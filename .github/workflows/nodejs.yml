@@ -32,7 +32,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install Packages
-        run: npm install
+        run: |
+          npm install
+          npm install hexo@5.4.0 -g
 
       - name: Cache node modules
         uses: actions/cache@v1
