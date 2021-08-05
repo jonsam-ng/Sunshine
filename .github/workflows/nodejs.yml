@@ -35,7 +35,7 @@ jobs:
         run: |
           rm -rf ./node_modules
           npm install
-          npm install hexo@5.4.0 -g
+          npm install -g hexo
 
       - name: Build docs
         run: |
