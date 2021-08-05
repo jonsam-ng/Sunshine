@@ -33,6 +33,7 @@ jobs:
 
       - name: Install Packages
         run: |
+          npm install npm -g
           npm cache clean --force
           rm -rf node_modules
           npm install
