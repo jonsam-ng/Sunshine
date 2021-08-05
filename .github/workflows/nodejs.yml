@@ -33,6 +33,7 @@ jobs:
 
       - name: Install Packages
         run: |
+          rm -rf node_modules
           npm install
           npm install hexo@5.4.0 -g
 
