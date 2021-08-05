@@ -33,11 +33,7 @@ jobs:
 
       - name: Install Packages
         run: |
-          npm install npm -g
-          npm cache clean --force
-          rm -rf node_modules
-          npm install
-          npm install -g hexo
+          yarn
 
       - name: Cache node modules
         uses: actions/cache@v1
@@ -50,7 +46,7 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Build docs
-        run: npm run build
+        run: yarn build
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
