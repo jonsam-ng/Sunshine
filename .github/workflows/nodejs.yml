@@ -34,6 +34,7 @@ jobs:
       - name: Install Packages
         run: |
           npm i -g yarn
+          npm config set registry https://registry.npm.taobao.org
           yarn
 
       - name: Cache node modules
