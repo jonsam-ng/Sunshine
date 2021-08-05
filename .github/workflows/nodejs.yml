@@ -46,8 +46,8 @@ jobs:
             ${{ runner.OS }}-build-${{ env.cache-name }}-
             ${{ runner.OS }}-build-
             ${{ runner.OS }}-
-      
-       - name: Build docs
+
+      - name: Build docs
         run: npm run build
 
       - name: Publish docs
