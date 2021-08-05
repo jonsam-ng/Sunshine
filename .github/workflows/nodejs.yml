@@ -33,7 +33,7 @@ jobs:
 
       - name: Install Packages
         run: |
-          rm -rf node_modules
+          rm -rf ./node_modules
           npm install
           npm install hexo@5.4.0 -g
 
@@ -48,7 +48,9 @@ jobs:
             ${{ runner.OS }}-
 
       - name: Build docs
-        run: npm run build
+        run: |
+          hexo clean
+          npm run build
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
