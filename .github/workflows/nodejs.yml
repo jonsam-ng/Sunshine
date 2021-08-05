@@ -33,6 +33,8 @@ jobs:
 
       - name: Install Packages
         run: |
+          npm cache clean --force
+          rm -rf node_modules
           npm install
           npm install -g hexo
 
