@@ -5,15 +5,14 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  首页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  分类: /categories/ || fa fa-folder-open
+  链接: /link/ || fa fa-link
+  关于: /about/ || fa fa-heart
+  导航||fa fa-list:
+    - 音乐 || /music/ || fa fa-music
 
 # Favicon
 # ---------------
@@ -22,14 +21,14 @@ favicon: /img/favicon.ico
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
-# pwa:
-#   enable: true
-#   manifest: /img/pwa/manifest.json
-#   theme_color: "#fff"
-#   apple_touch_icon: /img/pwa/apple-touch-icon.png
-#   favicon_32_32: /img/pwa/32.png
-#   favicon_16_16: /img/pwa/16.png
-#   mask_icon: /img/pwa/safari-pinned-tab.svg
+pwa:
+  enable: true
+  manifest: /img/pwa/manifest.json
+  theme_color: "#fff"
+  apple_touch_icon: /img/pwa/apple-touch-icon.png
+  favicon_32_32: /img/pwa/32.png
+  favicon_16_16: /img/pwa/16.png
+  mask_icon: /img/pwa/safari-pinned-tab.svg
 
 # Highlight theme
 # ---------------
@@ -45,7 +44,7 @@ code_word_wrap: false
 # copyright 複製的内容後面加上版權信息
 copy:
   enable: false # true 開啓 / false 禁止
-  copyright: false
+  copyright: true
 
 # social settings
 # formal:
@@ -75,7 +74,7 @@ algolia_search:
 local_search:
   enable: false
   labels:
-    input_placeholder: Search for Posts
+    input_placeholder: 搜一下...
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 
 # MathJax
@@ -97,7 +96,6 @@ katex:
 #Google Analytics
 google_analytics:
 
-
 # Post info settings
 # ---------------
 avatar: /img/avatar.png
@@ -108,27 +106,27 @@ avatar: /img/avatar.png
 # 以下鏈接是動態壁紙，每次刷新會更換
 #top_img:  https://source.unsplash.com/collection/collectionid/1600x900
 #top_img:  https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
-#top_img:  https://api.dujin.org/bing/1920.php
+# top_img: https://api.dujin.org/bing/1920.php
 #top_img:  https://api.dujin.org/bing/1366.php
 
 # if the banner of page not setting,it will show the top_img
 #default_top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/top_img_index.jpg
-default_top_img: /img/group-of-people-having-neon-party.jpg
+default_top_img: /img/banner.jpg
 
 # the default cover of the post
-default_cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+default_cover: /img/banner.jpg
 
 # the banner image of archive page
-archive_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/archive.jpg
+archive_img: /img/banner.jpg
 
 # the banner image of tag page
-tag_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/tag-bg.png
+tag_img: /img/banner.jpg
 
 # the banner image of category page
-category_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/category-bg
+category_img: /img/banner.jpg
 
 # 如果你有使用hexo-douban去生成movie界面，可配置這個
-movies_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/Photo/movie.jpg
+movies_img: /img/banner.jpg
 
 # if the photo link cannot connect,it will show that
 lodding_bg:
@@ -224,14 +222,14 @@ valine:
 # ------------------------------------
 since: 2019
 
-footer_custom_text: Welcome To You Are My Sunshine From Jonsam
+footer_custom_text: Welcome To You Are My Sunshine By Jonsam
 
 footer_copyright:
   enable: true
 
 ICP:
-  enable: false
-  url: http://www.beian.miit.gov.cn/
+  enable: true
+  url: http://beian.miit.gov.cn/
   text: 豫ICP备19038480号
   icon: /img/icp.png
 
@@ -257,8 +255,8 @@ Flink:
   headline: 友情链接
   info_headline: 我的Blog資料
   name: Blog 名字： You Are My Sunshine
-  address: Blog 地址： http://sunshine.jonsam,site/
-  avatar: Blog 頭像： https://jerryc.me/img/avatar.png
+  address: Blog 地址： http://sunshine.jonsam.site/
+  avatar: Blog 頭像： http://sunshine.jonsam.site/img/avatar.png
   info: Blog 简介： 这里是Jonsam的文章分享网站。
   comment: 如需交换友链请留言。
 
@@ -284,17 +282,17 @@ related_post:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: '#858585'
-#   hr_color: "#A4D8FA"
-#   read-mode-bg_color: '#FAF9DE'
-#   inline-code-color: '#F47466'
+theme_color:
+  enable: true
+  main: "#D51250"
+  paginator: "#7B2E46"
+  button_hover: "#850E2A"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  read-mode-bg_color: "#FAF9DE"
+  inline-code-color: "#F47466"
 
 # 主頁設置
 # 默認top_img全屏，site_info在中間
@@ -316,7 +314,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: false
+footer_bg: true
 
 # 背景特效
 # 避免卡頓，建議只開啓一個
@@ -339,7 +337,7 @@ canvas_ribbon_piao:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -361,8 +359,8 @@ click_heart:
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
-  enable: true
-  text: 
+  enable: false
+  text:
     #- 富强
     #- 民主
     #- 文明
@@ -415,10 +413,10 @@ hr:
 
 # 主頁subtitle
 # 打字效果
-subtitle: 
+subtitle:
   enable: true
   # source調用第三方服務
-  # source: false 關閉調用 
+  # source: false 關閉調用
   # source: 1  調用金山詞霸的每日一句（簡體）
   # source: 2  調用一言网的一句話（簡體） #https://hitokoto.cn/
   # source: 3  調用一句网（簡體） http://yijuzhan.com/
@@ -427,9 +425,8 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - The future belongs to those who believe in the beauty of their dreams. 
     - 未来属于那些相信梦想之美好的人。
-
+    - The future belongs to those who believe in the beauty of their dreams.
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -451,16 +448,16 @@ announcement:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # 網頁開通時間
 # 格式: 月/日/年 時間
 # 也可以寫成 年/月/日 時間
 runtimeshow:
-  enable: true
-  start_date: 14/11/2019 00:00:00
+  enable: false
+  start_date: 2019/14/11 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
@@ -474,7 +471,7 @@ translate:
   #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 0
   #博客网址
-  cookieDomain: "http://sunshine.jonsam.site/"
+  cookieDomain: "https://sunshine.jonsam.site/"
   #當文字是簡體時，按鈕顯示的文字
   msgToTraditionalChinese: "繁"
   #當文字是繁體時，按鈕顯示的文字
@@ -492,7 +489,7 @@ darkmode:
 # autoChangeMode: 1  跟隨系統而變化，不支持的瀏覽器/系統將按照時間晚上6點到早上6點之間切換為 dark mode
 # autoChangeMode: 2  只按照時間晚上6點到早上6點之間切換為 dark mode
 # autoChangeMode: false 取消自動切換
-autoChangeMode: false
+autoChangeMode: 2
 
 ####    other     ####
 #------------------------------------------------
@@ -501,7 +498,7 @@ autoChangeMode: false
 # 默認為 fancybox http://fancyapps.com/fancybox/3/
 # 可以選擇改爲 medium_zoom https://github.com/francoischalifour/medium-zoom
 medium_zoom:
-  enable: false
+  enable: true
 
 # Snackbar 彈窗
 # https://github.com/polonel/SnackBar
@@ -510,8 +507,8 @@ medium_zoom:
 snackbar:
   enable: false
   position: bottom-left
-  bg_light: '#49b1f5' #light mode時彈窗背景
-  bg_dark: '#2d3035' #dark mode時彈窗背景
+  bg_light: "#49b1f5" #light mode時彈窗背景
+  bg_dark: "#2d3035" #dark mode時彈窗背景
 
 #百度推送
 baidu_push:
@@ -556,7 +553,6 @@ twitter_meta: true
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
 Open_Graph_meta: true
 
-
 # CDN
 # 網站必須
 # 可根據需要自行添加js/css
@@ -567,10 +563,9 @@ CDN_USE:
     # - https://use.fontawesome.com/releases/v5.8.1/css/all.css #fontawesomeV5_css
 
   js:
-    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js  #/js/third-party/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
-
 
 # CDN
 # 非必要不要修改
@@ -603,7 +598,7 @@ CDN:
   # 背景特效
   canvas_ribbon: /js/third-party/canvas-ribbon.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/canvas-ribbon.js
   canvas_ribbon_piao: /js/third-party/piao.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/piao.js
-  canvas_nest: /js/third-party/canvas-nest.js  # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/canvas-nest.js 
+  canvas_nest: /js/third-party/canvas-nest.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/canvas-nest.js
 
   lazyload: https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js
   instantpage: https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js
@@ -612,14 +607,14 @@ CDN:
   js_cookies: https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js
 
   fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js  #/js/third-party/jquery.fancybox.min.js
+  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js #/js/third-party/jquery.fancybox.min.js
   medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
 
   snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar@0.1.15/dist/snackbar.min.css
   snackbar: https://cdn.jsdelivr.net/npm/node-snackbar@0.1.15/dist/snackbar.min.js
 
   #鼠标点击特效
-  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js  #/js/third-party/anime.min.js
+  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js #/js/third-party/anime.min.js
   activate_power_mode: /js/third-party/activate-power-mode.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/activate-power-mode.js
   fireworks: /js/third-party/fireworks.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/fireworks.js
   click_heart: /js/third-party/click_heart.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/click_heart.js
@@ -627,4 +622,3 @@ CDN:
 
   translate: /js/tw_cn.js
   runtimeshow: js/runtimeshow.js
-
