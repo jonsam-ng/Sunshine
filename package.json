@@ -12,8 +12,8 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "": "^5.4.0",
-    "hexo-deplohexoyer-git": "^2.0.0",
+    "hexo": "^5.4.0",
+    "hexo-deployer-git": "^2.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
