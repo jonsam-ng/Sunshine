@@ -37,11 +37,6 @@ jobs:
           npm install
           npm install -g hexo
 
-      - name: Build docs
-        run: |
-          hexo clean
-          npm run build
-
       - name: Cache node modules
         uses: actions/cache@v1
         with:
@@ -51,6 +46,9 @@ jobs:
             ${{ runner.OS }}-build-${{ env.cache-name }}-
             ${{ runner.OS }}-build-
             ${{ runner.OS }}-
+      
+       - name: Build docs
+        run: npm run build
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
