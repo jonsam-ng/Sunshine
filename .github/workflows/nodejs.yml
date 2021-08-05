@@ -33,6 +33,7 @@ jobs:
 
       - name: Install Packages
         run: |
+          rm -rf ./node_modules
           npm install
           npm install hexo@5.4.0 -g
 
@@ -40,6 +41,16 @@ jobs:
         run: |
           hexo clean
           npm run build
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-build-${{ env.cache-name }}-
+            ${{ runner.OS }}-build-
+            ${{ runner.OS }}-
 
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
