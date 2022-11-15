@@ -559,11 +559,11 @@ Open_Graph_meta: true
 CDN_USE:
   css:
     - /css/index.css
-    - https://cdn.staticfile.org/font-awesome/6.2.0/css/fontawesome.min.css
+    - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
     # - https://use.fontawesome.com/releases/v5.8.1/css/all.css #fontawesomeV5_css
 
   js:
-    - https://cdn.staticfile.org/jquery/3.6.1/jquery.min.js #/js/third-party/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
 
