@@ -1,29 +1,29 @@
 {
-  "name": "sunshine",
-  "version": "1.0.0",
-  "private": false,
-  "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
-  },
-  "hexo": {
-    "version": "5.4.0"
-  },
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
-    "hexo": "^5.4.0",
-    "hexo-deployer-git": "^2.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-offline": "^2.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-jade": "^0.5.0",
-    "hexo-renderer-marked": "^2.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
-  }
+	"name": "sunshine",
+	"version": "1.0.0",
+	"private": false,
+	"scripts": {
+		"build": "hexo generate",
+		"clean": "hexo clean",
+		"deploy": "hexo deploy",
+		"server": "hexo server"
+	},
+	"hexo": {
+		"version": "5.4.2"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.10",
+		"hexo": "^5.4.0",
+		"hexo-deployer-git": "^2.0.0",
+		"hexo-generator-archive": "^1.0.0",
+		"hexo-generator-category": "^1.0.0",
+		"hexo-generator-index": "^1.0.0",
+		"hexo-generator-tag": "^1.0.0",
+		"hexo-offline": "^2.0.0",
+		"hexo-renderer-ejs": "^1.0.0",
+		"hexo-renderer-jade": "^0.5.0",
+		"hexo-renderer-marked": "^2.0.0",
+		"hexo-renderer-stylus": "^1.1.0",
+		"hexo-server": "^1.0.0"
+	}
 }
