@@ -99,7 +99,7 @@ google_analytics:
 # Post info settings
 # ---------------
 avatar: /img/avatar.png
-#avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
+#avatar: https://cdn.bilicdn.tk/gh/jerryc127/CDN@latest/Photo/avatar.png
 
 # the banner image of index
 #top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
@@ -110,7 +110,7 @@ avatar: /img/avatar.png
 #top_img:  https://api.dujin.org/bing/1366.php
 
 # if the banner of page not setting,it will show the top_img
-#default_top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/top_img_index.jpg
+#default_top_img: https://cdn.bilicdn.tk/gh/jerryc127/CDN/img/top_img_index.jpg
 default_top_img: /img/banner.jpg
 
 # the default cover of the post
@@ -202,7 +202,7 @@ disqus:
 #   language:   # en , zh-CN , zh-TW
 ####   Using this js for redirect to gitalk container after login
 ####   See https://github.com/gitalk/gitalk/issues/125
-#   js: https://cdn.jsdelivr.net/gh/upupming/gitalk@36368e5dffd049e956cdbbd751ff96c28d8255cf/dist/gitalk.min.js
+#   js: https://cdn.bilicdn.tk/gh/upupming/gitalk@36368e5dffd049e956cdbbd751ff96c28d8255cf/dist/gitalk.min.js
 
 # valine comment system. https://valine.js.org
 valine:
@@ -559,11 +559,11 @@ Open_Graph_meta: true
 CDN_USE:
   css:
     - /css/index.css
-    - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
+    - https://cdn.bilicdn.tk/npm/font-awesome@latest/css/font-awesome.min.css
     # - https://use.fontawesome.com/releases/v5.8.1/css/all.css #fontawesomeV5_css
 
   js:
-    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
+    - https://cdn.bilicdn.tk/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
 
@@ -571,54 +571,54 @@ CDN_USE:
 # 非必要不要修改
 CDN:
   #comments
-  blueimp_md5: https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js
-  gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  blueimp_md5: https://cdn.bilicdn.tk/npm/blueimp-md5@2.10.0/js/md5.min.js
+  gitalk: https://cdn.bilicdn.tk/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://cdn.bilicdn.tk/npm/gitalk/dist/gitalk.min.css
+  valine: https://cdn.bilicdn.tk/npm/valine/dist/Valine.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js
-  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css
+  sharejs: https://cdn.bilicdn.tk/npm/social-share.js@1.0.16/dist/js/social-share.min.js
+  sharejs_css: https://cdn.bilicdn.tk/npm/social-share.js@1.0.16/dist/css/share.min.css
 
   #search
-  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js
-  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.css
+  algolia_search: https://cdn.bilicdn.tk/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js
+  algolia_search_css: https://cdn.bilicdn.tk/npm/instantsearch.js@2.1.1/dist/instantsearch.min.css
   algolia_js: /js/search/algolia.js
   local_search: /js/search/local-search.js
 
-  mathjax: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  katex: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
-  katex_copytex: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js
-  katex_copytex_css: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css
+  mathjax: https://cdn.bilicdn.tk/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  katex: https://cdn.bilicdn.tk/npm/katex@latest/dist/katex.min.css
+  katex_copytex: https://cdn.bilicdn.tk/npm/katex-copytex@latest/dist/katex-copytex.min.js
+  katex_copytex_css: https://cdn.bilicdn.tk/npm/katex-copytex@latest/dist/katex-copytex.min.css
 
   #不蒜子計數器
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # 背景特效
-  canvas_ribbon: /js/third-party/canvas-ribbon.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/canvas-ribbon.js
-  canvas_ribbon_piao: /js/third-party/piao.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/piao.js
-  canvas_nest: /js/third-party/canvas-nest.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/canvas-nest.js
+  canvas_ribbon: /js/third-party/canvas-ribbon.js # https://cdn.bilicdn.tk/gh/jerryc127/butterfly_cdn@latest/js/canvas-ribbon.js
+  canvas_ribbon_piao: /js/third-party/piao.js # https://cdn.bilicdn.tk/gh/jerryc127/butterfly_cdn@latest/js/piao.js
+  canvas_nest: /js/third-party/canvas-nest.js # https://cdn.bilicdn.tk/gh/jerryc127/butterfly_cdn@latest/js/canvas-nest.js
 
-  lazyload: https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js
-  instantpage: https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js
+  lazyload: https://cdn.bilicdn.tk/npm/lazysizes@latest/lazysizes.min.js
+  instantpage: https://cdn.bilicdn.tk/npm/instant.page@latest/instantpage.min.js
 
-  typed: https://cdn.jsdelivr.net/npm/typed.js
-  js_cookies: https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js
+  typed: https://cdn.bilicdn.tk/npm/typed.js
+  js_cookies: https://cdn.bilicdn.tk/npm/js-cookie/dist/js.cookie.min.js
 
-  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js #/js/third-party/jquery.fancybox.min.js
-  medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://cdn.bilicdn.tk/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://cdn.bilicdn.tk/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js #/js/third-party/jquery.fancybox.min.js
+  medium_zoom: https://cdn.bilicdn.tk/npm/medium-zoom/dist/medium-zoom.min.js
 
-  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar@0.1.15/dist/snackbar.min.css
-  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar@0.1.15/dist/snackbar.min.js
+  snackbar_css: https://cdn.bilicdn.tk/npm/node-snackbar@0.1.15/dist/snackbar.min.css
+  snackbar: https://cdn.bilicdn.tk/npm/node-snackbar@0.1.15/dist/snackbar.min.js
 
   #鼠标点击特效
-  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js #/js/third-party/anime.min.js
-  activate_power_mode: /js/third-party/activate-power-mode.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/activate-power-mode.js
-  fireworks: /js/third-party/fireworks.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/fireworks.js
-  click_heart: /js/third-party/click_heart.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/click_heart.js
-  ClickShowText: /js/third-party/ClickShowText.js # https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@latest/js/ClickShowText.js
+  anime: https://cdn.bilicdn.tk/npm/animejs@latest/anime.min.js #/js/third-party/anime.min.js
+  activate_power_mode: /js/third-party/activate-power-mode.js # https://cdn.bilicdn.tk/gh/jerryc127/butterfly_cdn@latest/js/activate-power-mode.js
+  fireworks: /js/third-party/fireworks.js # https://cdn.bilicdn.tk/gh/jerryc127/butterfly_cdn@latest/js/fireworks.js
+  click_heart: /js/third-party/click_heart.js # https://cdn.bilicdn.tk/gh/jerryc127/butterfly_cdn@latest/js/click_heart.js
+  ClickShowText: /js/third-party/ClickShowText.js # https://cdn.bilicdn.tk/gh/jerryc127/butterfly_cdn@latest/js/ClickShowText.js
 
   translate: /js/tw_cn.js
   runtimeshow: js/runtimeshow.js
