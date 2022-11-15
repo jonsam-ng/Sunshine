@@ -229,7 +229,7 @@ footer_copyright:
 
 ICP:
   enable: true
-  url: http://beian.miit.gov.cn/
+  url: https://www.beian.miit.gov.cn/
   text: 豫ICP备19038480号
   icon: /img/icp.png
 

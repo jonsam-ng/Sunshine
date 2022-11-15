@@ -1,21 +1,20 @@
 {
   "main": {
-    "id": "710edd00dd5b9c06",
+    "id": "ab8457f02c87c0e0",
     "type": "split",
     "children": [
       {
-        "id": "fa2d369b1bc19f48",
+        "id": "67ce976e288f30ce",
         "type": "tabs",
         "children": [
           {
-            "id": "493ec2796b04b9f2",
+            "id": "7f7a483d409f6b66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "家/天桥.md",
+                "file": "家[1]:天桥.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -26,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "48af6a945d270b58",
+    "id": "32ac53959faf4bbf",
     "type": "split",
     "children": [
       {
-        "id": "71cb7ea525349334",
+        "id": "68765ee1941c4ff4",
         "type": "tabs",
         "children": [
           {
-            "id": "8f593090dea1c3e2",
+            "id": "cdc8a26333f55036",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +43,7 @@
             }
           },
           {
-            "id": "ecf89d43290da302",
+            "id": "4be40db75f141232",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,18 +58,10 @@
             }
           },
           {
-            "id": "ca3f3d9cff9f4d0d",
+            "id": "56144f8b5dbf3a3a",
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "631decc04595ac98",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
               "state": {}
             }
           }
@@ -78,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 300
   },
   "right": {
-    "id": "5bf04ada9ccf4737",
+    "id": "82771b28661d1108",
     "type": "split",
     "children": [
       {
-        "id": "93909a8493ee53f1",
+        "id": "47cc0fcde03418ba",
         "type": "tabs",
         "children": [
           {
-            "id": "71d46e23e86f4e73",
+            "id": "18f2012e787cd547",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "家/天桥.md",
+                "file": "家[1]:天桥.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,19 +97,19 @@
             }
           },
           {
-            "id": "6c05426429d694eb",
+            "id": "16a7d5c8405517b1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "家/天桥.md",
+                "file": "家[1]:天桥.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7834e12cc21d46f0",
+            "id": "e666727751b98186",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,65 +120,31 @@
             }
           },
           {
-            "id": "7d3a91eee3ee91ed",
+            "id": "60be35c3d7b20c5c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "家/天桥.md"
+                "file": "家[1]:天桥.md"
               }
             }
-          },
-          {
-            "id": "50f934a9855a8b2a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "c822ec6a34d73d22",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "4b437a86c37d1293",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "1d211de7a490f6ba",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
+    "width": 300,
     "collapsed": true
   },
-  "active": "493ec2796b04b9f2",
+  "active": "7f7a483d409f6b66",
   "lastOpenFiles": [
-    "家/天桥.md",
-    "Excalidraw/Drawing 2022-11-13 00.02.40.excalidraw.md",
-    "chap6-0922/README.md",
-    "2022-11-12.md",
-    "chap5-0918/README.md",
-    "chap4-0917/README.md",
-    "chap3-0915/README.md",
-    "chap2-0914/README.md",
-    "chap1-0829/README.md"
+    "Day Planners/Day Planner-20221115.md",
+    "装满星星的玻璃瓶[2].md",
+    "装满星星的玻璃瓶[1].md",
+    "稻草人[4].md",
+    "稻草人[3].md",
+    "稻草人[2].md",
+    "稻草人[1].md",
+    "家[1]:天桥.md"
   ]
 }
