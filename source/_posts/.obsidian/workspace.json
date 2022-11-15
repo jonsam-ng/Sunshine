@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "710edd00dd5b9c06",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa2d369b1bc19f48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "493ec2796b04b9f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "家/天桥.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48af6a945d270b58",
+    "type": "split",
+    "children": [
+      {
+        "id": "71cb7ea525349334",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f593090dea1c3e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ecf89d43290da302",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ca3f3d9cff9f4d0d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "631decc04595ac98",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.5
+  },
+  "right": {
+    "id": "5bf04ada9ccf4737",
+    "type": "split",
+    "children": [
+      {
+        "id": "93909a8493ee53f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71d46e23e86f4e73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "家/天桥.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c05426429d694eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "家/天桥.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7834e12cc21d46f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7d3a91eee3ee91ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "家/天桥.md"
+              }
+            }
+          },
+          {
+            "id": "50f934a9855a8b2a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c822ec6a34d73d22",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b437a86c37d1293",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "1d211de7a490f6ba",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5,
+    "collapsed": true
+  },
+  "active": "493ec2796b04b9f2",
+  "lastOpenFiles": [
+    "家/天桥.md",
+    "Excalidraw/Drawing 2022-11-13 00.02.40.excalidraw.md",
+    "chap6-0922/README.md",
+    "2022-11-12.md",
+    "chap5-0918/README.md",
+    "chap4-0917/README.md",
+    "chap3-0915/README.md",
+    "chap2-0914/README.md",
+    "chap1-0829/README.md"
+  ]
+}
