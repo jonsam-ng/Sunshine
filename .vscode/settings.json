@@ -3,6 +3,13 @@
     "node_modules": true,
     ".history": true,
     "public": true,
+    ".deploy_git": true,
+    ".github": true,
+    "scaffolds": true,
+    // "themes": true,
+    // "_config.yml": true,
+    "db.json": true,
+    "source/CNAME": true,
   },
   "cSpell.words": []
 }

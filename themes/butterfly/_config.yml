@@ -11,8 +11,8 @@ menu:
   分类: /categories/ || fa fa-folder-open
   链接: /link/ || fa fa-link
   关于: /about/ || fa fa-heart
-  导航||fa fa-list:
-    - 音乐 || /music/ || fa fa-music
+  # 导航||fa fa-list:
+  #   - 音乐 || /music/ || fa fa-music
 
 # Favicon
 # ---------------
